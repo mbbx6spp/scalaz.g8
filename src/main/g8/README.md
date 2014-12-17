@@ -3,7 +3,7 @@
 ### Prerequisites
 
 1. Java 8
-2. Scala 2.11.3
+2. Scala 2.11.4
 3. SBT 0.13.0+
 
 ### Getting Started
