@@ -1,12 +1,25 @@
-## $name$
+== $name$
 
-### Prerequisites
+=== Purpose
+
+$description$ $purpose$
+
+=== Status
+
+We just started the project. Please wait while we move in here. Cheers!
+
+
+=== License
+
+This will be licensed under the BSD 3-clause license. See link:LICENSE[].
+
+=== Prerequisites
 
 1. Java 8
 2. Scala 2.11.4
 3. SBT 0.13.0+
 
-### Getting Started
+=== Getting Started
 
 Inside the root directory of the repository:
 
@@ -18,7 +31,7 @@ Inside the root directory of the repository:
 
         > test
 
-### Code Structure
+=== Code Structure
 
 I use a less common structure to my code than many Scala projects so here is
 the code structure outline and explanation:
