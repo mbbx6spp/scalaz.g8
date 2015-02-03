@@ -1,8 +1,8 @@
-package $orgId$
+package $orgId$.$name$
 
 import scalaz._
 import Scalaz._
 
-trait Functions extends Instances {
+trait $namespace$Functions extends $namespace$Instances {
   // TODO Define functions for the API's domain here
 }

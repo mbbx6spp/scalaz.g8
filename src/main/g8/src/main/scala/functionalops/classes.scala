@@ -1,8 +1,8 @@
-package $orgId$
+package $orgId$.$name$
 
 import scalaz._
 import Scalaz._
 
-trait Classes extends Types {
+trait $namespace$Classes extends $namespace$Types {
   // TODO Define typeclasses here (not instances)
 }

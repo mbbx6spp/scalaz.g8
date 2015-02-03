@@ -1,9 +1,9 @@
-package $orgId$
+package $orgId$.$name$
 
 import org.scalacheck.{Gen, Arbitrary}
 
-import $orgId$.core._
+import $orgId$.$name$.$subpackage$._
 
-object testInstances {
+object TestInstances {
   // TODO Define typeclass instances needed for Scalacheck
 }

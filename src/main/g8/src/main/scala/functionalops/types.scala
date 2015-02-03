@@ -1,8 +1,8 @@
-package $orgId$
+package $orgId$.$name$
 
 import scalaz._
 import Scalaz._
 
-trait Types {
+trait $namespace$Types {
   // TODO Define types here
 }
