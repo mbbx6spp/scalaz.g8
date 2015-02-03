@@ -2,7 +2,7 @@
   * dsmigrator.
   */
 
-package $orgId$
+package $orgId$.$name$
 
 import org.scalacheck.Properties
 import org.scalacheck.Prop.forAll
@@ -13,10 +13,10 @@ import scalacheck.ScalazProperties._
 import scalacheck.ScalazArbitrary._
 import scalacheck.ScalaCheckBinding._
 
-import $orgId$.core._
+import $orgId$.$name$.$subproject$._
 
 object FunctionsSpecification extends Properties("Functions") {
-  import testInstances._
+  import TestInstances._
 
   // TODO
 }
